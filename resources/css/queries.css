@@ -1,0 +1,40 @@
+
+
+/*For big tablets and 1200px (screen size is upto 1140px row)*/
+@media only screen and(max-width: 1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{
+        padding: 0 10%;
+    }
+    
+    
+}
+
+
+
+
+
+/*For screen size of 768px to 1023px for tablets and ipads */
+@media only screen and(max-width: 1023px){
+    
+    
+    
+}
+
+/*For screen size of 481px to 767px for phones and smaller tablets*/
+@media only screen and(max-width: 767px){
+    
+}
+
+
+
+
+
+/*For screen size of 0px to 480px for small phones*/
+@media only screen and (max-width: 480px){
+    
+    
+}
