@@ -1,282 +1,168 @@
 /*Orange color : #e67e22
 */
 
-/*For big tablets and 1200px (screen size is upto 1140px row)*/
-@media screen and(max-width: 1200px){
-    .hero-text-box{
-        width: 100%;
-        padding: 0 2%;
-    }
-    .row{
-        padding: 0 10%;
-    }
-    
-    
-}
-
-
-
-
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*---------------------------------BASIC SETUP------------------------------------------------------------*/
 
-*{
+* {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-html{
+html {
     background-color: #fff;
     color: #403a3a;
-    font-family: 'Lato','Arial', sans-serif;
+    font-family: "Lato", "Arial", sans-serif;
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
 
-.clearfix{zoom:1}
-.clearfix:after{
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
     content: ".";
-    clear:both;
+    clear: both;
     height: 0;
     display: block;
     visibility: hidden;
 }
 
-
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*---------------------------------REUSABLES------------------------------------------------------------*/
 
-
-.row{
+.row {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-section{
-    padding:80px 0;
+section {
+    padding: 80px 0;
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*---------------------------------HEADINGS------------------------------------------------------------*/
-h1,h2,h3{
-    
+h1,
+h2,
+h3 {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 300;
 }
 
-h1{
+h1 {
     margin-bottom: 40px;
-    margin-top:0px;
+    margin-top: 0px;
     color: #fff;
     font-size: 240%;
     word-spacing: 4px;
-    
 }
-h2{
-    font-size:180%;
-    margin-bottom:30px;
+h2 {
+    font-size: 180%;
+    margin-bottom: 30px;
     text-align: center;
     word-spacing: 2px;
 }
-h3{
-    font-size:110%;
-    margin-bottom:20px;
+h3 {
+    font-size: 110%;
+    margin-bottom: 20px;
 }
-h2:after{
+h2:after {
     display: block;
     height: 2px;
-    background-color:#e67e22 ;
+    background-color: #e67e22;
     content: "";
     width: 100px;
     margin: 0 auto;
-    margin-top:30px;
+    margin-top: 30px;
 }
-
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*---------------------------------PARAGRAPHS------------------------------------------------------------*/
 
-.long-copy{
+.long-copy {
     line-height: 145%;
-    width:70%;
-    margin-left:15%;
+    width: 70%;
+    margin-left: 15%;
     font-weight: 350;
     margin-bottom: 30px;
 }
 
-.box{
-    padding:10px;
+.box {
+    padding: 10px;
     margin: 0;
-    
 }
-.box p{
+.box p {
     font-weight: 350;
-    font-size:90%;
+    font-size: 90%;
     line-height: 145%;
-    
 }
-
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*---------------------------------ICONS------------------------------------------------------------*/
 
-.icon-big{
-    font-size:350%;
+.icon-big {
+    font-size: 350%;
     color: #e67e22;
     line-height: 145%;
-    
-    
 }
 
-.icon-small{
-    color:#e67e22;
+.icon-small {
+    color: #e67e22;
     font-size: 120%;
     display: inline-block;
     width: 30px;
     text-align: center;
     margin-right: 5px;
-    
+
     /*secrets to align text and icons*/
     line-height: 120%;
     vertical-align: middle;
     margin-top: -5px;
-    
 }
-
-
-
-
-/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*---------------------------------MEALS------------------------------------------------------------*/
-.section-meals{
-    padding:0;
-}
-.meals-showcase{
-    list-style: none;
-    width: 100%;
-}
-.meals-showcase li{
-    display: block;
-    width:25%;
-    float: left;
-    
-    
-}
-.meals-photo{
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    background-color: #000;
-}
-
-.meals-photo img{
-    width: 100%;
-    opacity: 0.7;
-    height: auto;
-    transform: scale(1.15);
-    transition: transform 0.5s, opacity 0.5s;
-}
-
-.meals-photo img:hover{
-    transform: scale(1.03);
-    opacity: 1;
-}
-
-
-/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*---------------------------------HOW IT WORKS------------------------------------------------------------*/
-
-.section-steps{
-    background-color: #efefef;
-}
-.step-box:first-child{
-    text-align: right;
-    padding-right: 3%;
-    margin-top: 30px;
-}
-.step-box:last-child{
-    margin-top:70px;
-    padding-left: 3%;
-}
-.app-screen{
-    width: 40%;
-    height: auto;
-}
-.work-steps{
-    margin-bottom: 30px;
-}
-.work-steps:last-of-type{
-    margin-bottom: 80px;
-}
-.work-steps div{
-    border: 2px solid #e67e22;
-    display: inline-block;
-    border-radius: 50%;
-    height: 55px;
-    width: 55px;
-    text-align: center;
-    padding:5px;
-    float:left;
-    font-size:150%;
-    margin-right:30px;
-    color: #e67e22;
-    
-}
-.btn-app:link,
-.btn-app:visited{
-    border:0;
-}
-.btn-app img{
-    height:50px;
-    width: auto;
-    margin-right:10px;
-}
-
-/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*---------------------------------CITIES------------------------------------------------------------*/
-
-.box img{
-    
-    width: 100%;
-    height: auto;
-    padding:3%;
-    margin-bottom: 15px;
-}
-
-.city-feature{
-    font-weight: 300;
-    margin-bottom: 5px;
-}
-
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*---------------------------------HEADER------------------------------------------------------------*/
 
-
-header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)),url(img/hero.jpg);
+header {
+    background-image: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            from(rgba(0, 0, 0, 0.71)),
+            to(rgba(0, 0, 0, 0.71))
+        ),
+        url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)),
+        url(img/hero.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;   
-     background-attachment: fixed;
+    height: 100vh;
+    background-attachment: fixed;
 }
 
-.hero-text-box{
+.hero-text-box {
     position: absolute;
     width: 1140px;
-    top:50%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%)
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
-
-
-.logo{
+.logo {
     height: 100px;
     width: auto;
     float: left;
-    margin-top:20px;
+    margin-top: 20px;
 }
-
+.logo-black{
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 0 ;
+}
+/*Main Navi*/
 .main-nav{
     float: right;
     list-style: none;
@@ -297,6 +183,7 @@ header{
     text-transform: uppercase;
     font-size: 90%;
     border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
     
 }
@@ -307,257 +194,408 @@ header{
     border-bottom: 2px solid #e67e22;
     
 }
+
+
+/* Mobile Navi*/
+.mobile-nav-icon{
+    float: right;
+    cursor: pointer;
+    margin-top:30px;
+    display: none;
+}
+.mobile-nav-icon i{
+    font-size:200%;
+    color: #fff
+    
+}
+/*Sticky navi*/
+.sticky{
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 2px #ddd8d8;
+}
+.sticky .main-nav{
+    margin: 20px;
+}
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited
+{
+   
+    color: #555;
+    padding: 18px 0;
+   
+    
+}
+.sticky .logo{display: none;}
+.sticky .logo-black{display: block;}
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------MEALS------------------------------------------------------------*/
+.section-meals {
+    padding: 0;
+}
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+.meals-showcase li {
+    display: block;
+    width: 25%;
+    float: left;
+}
+.meals-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meals-photo img {
+    width: 100%;
+    opacity: 0.7;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.meals-photo img:hover {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------HOW IT WORKS------------------------------------------------------------*/
+
+.section-steps {
+    background-color: #efefef;
+}
+.step-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+.step-box:last-child {
+    margin-top: 70px;
+    padding-left: 3%;
+}
+.app-screen {
+    width: 40%;
+    height: auto;
+}
+.work-steps {
+    margin-bottom: 30px;
+}
+.work-steps:last-of-type {
+    margin-bottom: 80px;
+}
+.work-steps div {
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 30px;
+    color: #e67e22;
+}
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------CITIES------------------------------------------------------------*/
+
+.box img {
+    width: 100%;
+    height: auto;
+    padding: 3%;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*---------------------------------LINKS------------------------------------------------------------*/
 
 a:link,
-a:visited{
-    
-    color:#e67e22;
+a:visited {
+    color: #e67e22;
     border-bottom: 1px solid #e67e22;
     text-decoration: none;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
 }
 a:hover,
-a:active{
-    color:#555;
-    border:0;
+a:active {
+    color: #555;
+    border: 0;
 }
-
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*---------------------------------BUTTONS------------------------------------------------------------*/
 
 .btn:link,
 .btn:visited,
-input[type=submit]{
+input[type="submit"] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
-    color:#fff;
+    color: #fff;
     border-radius: 200px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
-    
 }
 .btn-full:link,
 .btn-full:visited,
-input[type=submit]{
+input[type="submit"] {
     background-color: #e67e22;
-     border: 1px solid #e67e22;
+    border: 1px solid #e67e22;
 }
 .btn-ghost:link,
-.btn-ghost:visited{
+.btn-ghost:visited {
     border: 1px solid #e67e22;
-    color:#e67e22;
+    color: #e67e22;
 }
 .btn:hover,
 .btn:active,
-input[type=submit]:active,
-input[type=submit]:hover
-{
-    background-color:#cf6d17;
+input[type="submit"]:active,
+input[type="submit"]:hover {
+    background-color: #cf6d17;
     border-color: #cf6d17;
-    
 }
 
 .btn-ghost:hover,
-.btn-ghost:active{
+.btn-ghost:active {
     border: 1px solid #e67e22;
-    color:#fff;
-    
+    color: #fff;
 }
-
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*---------------------------------TESTIMONIALS------------------------------------------------------------*/
 
-.section-testimonials{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/back-customers.jpg);
-    color:white;
+.section-testimonials {
+    background-image: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            from(rgba(0, 0, 0, 0.8)),
+            to(rgba(0, 0, 0, 0.8))
+        ),
+        url(img/back-customers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url(img/back-customers.jpg);
+    color: white;
     background-size: cover;
     background-attachment: fixed;
 }
 
-blockquote{
-    padding:2%;
+blockquote {
+    padding: 2%;
     font-style: italic;
-    line-height: 145%; 
+    line-height: 145%;
     position: relative;
-    margin-top:40px;
+    margin-top: 40px;
     font-weight: 350;
-    
-    
 }
-blockquote:before{
+blockquote:before {
     content: "\201C";
-    font-size:500%;
+    font-size: 500%;
     display: block;
     position: absolute;
     top: -5px;
-    left:-5px;
+    left: -5px;
     font-weight: 350;
-    
 }
 
 cite {
     display: block;
-    margin-top:20px;
-    font-size: 90%
+    margin-top: 20px;
+    font-size: 90%;
 }
-cite img{
+cite img {
     height: 45px;
     border-radius: 50%;
     vertical-align: middle;
     margin-right: 10px;
 }
 
-
-
 /*--------------------------------------------------------------------------------------------------
 /*---------------------------------PLANS------------------------------------------------------------*/
 
-.section-plans{
+.section-plans {
     background-color: #efefef;
-   
 }
-.plan-box{
+.plan-box {
     background-color: #fff;
     width: 90%;
     border-radius: 5px;
 }
-.plan-box div{
+.plan-box div {
     border-bottom: 1px solid #e8e8e8;
-    padding:15px;
+    padding: 15px;
 }
-.plan-box div:last-child{
+.plan-box div:last-child {
     text-align: center;
     border: 0;
 }
-.plan-price{
+.plan-price {
     font-size: 300%;
     font-weight: 100;
     color: #e67e22;
     margin-bottom: 10px;
 }
-.plan-price-meal{
+.plan-price-meal {
     font-size: 80%;
     font-weight: 300;
-    margin-top:5%
+    margin-top: 5%;
 }
-.plan-price span{
+.plan-price span {
     font-size: 30%;
     font-weight: 300;
 }
-.plan-box div ul{
-    list-style: none; 
+.plan-box div ul {
+    list-style: none;
 }
-.plan-box div ul li{
+.plan-box div ul li {
     font-weight: 350;
     padding: 5px 0;
 }
 
-
-
 /*--------------------------------------------------------------------------------------------------
 /*---------------------------------CONTACT FORM------------------------------------------------------------*/
 
-
-.contact-form{
+.contact-form {
     width: 60%;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
-input[type=text],
-input[type=email],
-select, 
-textarea{
+input[type="text"],
+input[type="email"],
+select,
+textarea {
     width: 100%;
     padding: 7px;
     border-radius: 15px;
-    border:1px solid #ccc;
-    font-size: 80%
+    border: 1px solid #ccc;
+    font-size: 80%;
 }
-textarea{
+textarea {
     height: 100px;
 }
 
-input[type=checkbox]{
-    margin:10px 5px 10px 0;
-    
+input[type="checkbox"] {
+    margin: 10px 5px 10px 0;
 }
-*:focus{outline:none}
+*:focus {
+    outline: none;
+}
 
 /*--------------------------------------------------------------------------------------------------
 /*---------------------------------FOOTER-----------------------------------------------------------*/
 
-footer{
+footer {
     background-color: #333;
     padding: 60px;
     font-size: 80%;
 }
-.footer-nav{
+.footer-nav {
     list-style: none;
-    float:left
+    float: left;
 }
 
-.social-links{
+.social-links {
     list-style: none;
-    float:right;
+    float: right;
 }
 
 .footer-nav li,
-.social-links li{
-    
+.social-links li {
     display: inline-block;
-    margin-right:20px;
+    margin-right: 20px;
 }
 .footer-nav li:last-child,
-.social-links li:last-child{
-    margin-right:0
+.social-links li:last-child {
+    margin-right: 0;
 }
 
 .footer-nav li a:link,
 .footer-nav li a:visited,
 .social-links li a:link,
-.social-links li a:visited{
+.social-links li a:visited {
     text-decoration: none;
-    border:0;
-    color:#888;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
 .footer-nav li a:hover,
-.footer-nav li a:active
-{
-    color:#ddd;
+.footer-nav li a:active {
+    color: #ddd;
 }
 .social-links li a:link,
-.social-links li a:visited{
-    font-size: 120%
+.social-links li a:visited {
+    font-size: 120%;
 }
 .ion-social-facebook,
 .ion-social-twitter,
 .ion-social-googleplus,
-.ion-social-instagram{
-    transition: color 0.2s
+.ion-social-instagram {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
 }
-.ion-social-facebook:hover{
-    color: #3b5998
+.ion-social-facebook:hover {
+    color: #3b5998;
 }
-.ion-social-twitter:hover{
-    color: #00aced
+.ion-social-twitter:hover {
+    color: #00aced;
 }
-.ion-social-googleplus:hover{
-    color: #dd4b39
+.ion-social-googleplus:hover {
+    color: #dd4b39;
 }
-.ion-social-instagram:hover{
-    color: #517fa4
+.ion-social-instagram:hover {
+    color: #517fa4;
 }
 
-footer p{
-    color:#888;
+footer p {
+    color: #888;
     text-align: center;
-    margin-top:30px;
+    margin-top: 30px;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------
+/*---------------------------------ANIMATION----------------------------------------------------------*/
+
+.js--wp-1{
+    
+    transition-delay: 1s;
 }
 

@@ -1,40 +1,149 @@
-
-
 /*For big tablets and 1200px (screen size is upto 1140px row)*/
-@media only screen and(max-width: 1200px){
-    .hero-text-box{
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
         width: 100%;
         padding: 0 2%;
     }
-    .row{
-        padding: 0 10%;
+    .row {
+        padding: 0 2%;
     }
-    
-    
 }
 
-
-
-
-
 /*For screen size of 768px to 1023px for tablets and ipads */
-@media only screen and(max-width: 1023px){
-    
-    
-    
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    section {
+        padding: 60px 0;
+    }
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+        font-weight: 350;
+        margin-bottom: 20px;
+    }
+    .step-box {
+        margin-top: 10px;
+    }
+
+    .work-steps:last-of-type {
+        margin-bottom: 60px;
+    }
+    .app-screen {
+        width: 50%;
+    }
+
+    .icon-small {
+        font-size: 17px;
+        margin-right: 10px;
+    }
+    .city-feature {
+        font-size: 90%;
+    }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0;
+    }
+    .plan-price {
+        font-size: 250%;
+    }
+    .contact-form {
+        width: 80%;
+    }
+    footer {
+        padding: 30px;
+    }
 }
 
 /*For screen size of 481px to 767px for phones and smaller tablets*/
-@media only screen and(max-width: 767px){
-    
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16pxpx;
+    }
+   
+
+    .mobile-nav-icon {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .main-nav {
+        float: left;
+        display: none;
+    }
+    .main-nav li {
+        display: block;
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+    }
+
+    .sticky {
+        position: fixed;
+        background-color: #ffffff;
+        width: 100%;
+        top: 0;
+        left: 0;
+        box-shadow: 0 2px 2px #ddd8d8;
+    }
+    .sticky .main-nav {
+        margin: 10px 0 0 0;
+       
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 10px 0;
+    }
+    .sticky .mobile-nav-icon {
+       margin-top: 10px;
+    }
+    .sticky .mobile-nav-icon i{
+        color: #555;
+    }
+
+    h1 {
+        font-size: 180%;
+    }
+    h2 {
+        font-size: 150%;
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .long-copy {
+        width: 100%;
+        margin-left: 0;
+    }
+    .step-box:first-child {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    footer {
+        padding: 30px;
+    }
 }
 
-
-
-
-
 /*For screen size of 0px to 480px for small phones*/
-@media only screen and (max-width: 480px){
-    
-    
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    section {
+        padding: 50px 0px;
+    }
+    footer {
+        padding: 30px;
+    }
 }
